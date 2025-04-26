@@ -1,0 +1,50 @@
+#contact {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+
+}
+
+#contact h1 {
+    text-align: center;
+    color: black;
+    font-size: 48px;
+}
+
+.contact-info {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: white;
+    border-left: 5px solid #FFA929; 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+  
+}
+
+.contact-info h2 {
+    color: black;
+    margin-bottom: 5px;
+    margin: 20px 20px;
+
+}
+.contact-info h2 i {
+    color: #FFA929; 
+    margin-left: 20px;
+    font-size: 22px;
+}
+.contact-info p {
+    margin: 0;
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+.contact-info a {
+    color: black;
+    text-decoration: none;
+       margin-right: 50px;
+}
+
+.contact-info a:hover {
+    text-decoration: none;
+    color: #FFA929;
+}

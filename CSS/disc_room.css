@@ -1,0 +1,79 @@
+#discussion-room {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+}
+
+#discussion-room h1 {
+    font-size: 38px;
+    color: black;
+    margin-bottom: 50px;
+}
+#discussion-room h2 {
+    font-size: 22px;
+    color: #FFA929;
+    margin-bottom: 30px;
+   margin-top: 50px;
+ 
+}
+#discussion-room p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: -10px;
+    line-height: 1.6;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+}
+
+#discussion-room ul {
+    list-style-type: disc;
+    padding-left: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#discussion-room ul li {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+.discussion-room-image {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.discussion-room-image img {
+    width: 600px; 
+    max-width: 100%; 
+    height: auto; 
+    padding: 20px;
+    margin-top: -30px;
+}
+.hub3-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.hub3-container img {
+    width: 600px; 
+    max-width: 100%; 
+    height: auto; 
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.hub3-caption {
+    text-align: center;
+    font-size: 15px !important;
+    color: #777;
+    margin-top: 20px;
+   
+}

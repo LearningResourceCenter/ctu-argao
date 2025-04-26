@@ -1,0 +1,76 @@
+#filipiniana-section { 
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+
+#filipiniana-section h1 {
+    font-size: 38px;
+    color: black;
+    margin-bottom: 20px;
+    
+}
+
+
+#filipiniana-section h2 {
+    font-size: 26px;
+    color: #FFA929;
+    margin-top: 50px;
+}
+
+#filipiniana-section p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#filipiniana-section ul {
+    list-style-type: disc; 
+    padding-left: 40px; 
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#filipiniana-section ul li {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 12px;
+    position: relative;
+    padding-left: 20px; 
+}
+
+#filipiniana-section .content-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+#filipiniana-section .image-container {
+    display: flex;
+    gap: 10px;
+    margin-left: -250px;
+}
+
+#filipiniana-section img {
+    max-width: 80vh;
+    height: 50vh;
+    border-radius: 10px;
+  
+   padding: 20px;
+}
+.fil {
+    color: #777 !important;
+    font-size: 15px !important;
+    text-align: center !important;
+}

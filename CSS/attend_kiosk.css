@@ -1,0 +1,57 @@
+#attendance-kiosk {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+   
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.text-content {
+    flex: 1;
+    max-width: 800px;
+    text-align: left;
+}
+
+.text-content h1 {
+    font-size: 38px;
+    color: black;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.text-content h2 {
+    font-size: 22px;
+    color: #FFA929;
+    margin-top: 50px;
+}
+
+.text-content ol {
+    padding-left: 20px;
+}
+
+.text-content ol li {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.image-content img {
+    max-width: 80vh;
+    height: 60vh;
+    border-radius: 0;
+    margin-top: 50px;
+}
+.kiosk-location {
+    text-align: center;
+    font-size: 15px;
+    color: #777; 
+    margin-top: 10px;
+}

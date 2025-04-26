@@ -1,0 +1,56 @@
+.opac-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: left;
+   
+}
+
+.opac-container h1 {
+    color: #333;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.opac-container h2 {
+    color: #FFA929;
+    font-size: 22px;
+    margin-top: 45px;
+   
+}
+
+.opac-container p {
+    color: black;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.opac-container ul {
+    padding-left: 20px;
+}
+
+.opac-container ul li {
+    margin-bottom: 18px;
+    color: black;
+    font-size: 16px;
+}
+
+.opac-container .opac-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.opac-container img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.opac-container .caption {
+    font-size: 15px;
+    color: #777;
+    margin-top: 5px;
+}

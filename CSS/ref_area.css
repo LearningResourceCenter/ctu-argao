@@ -1,0 +1,63 @@
+#reference-area {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+#reference-area h2 {
+    font-size: 38px;
+    color: black;
+    margin-bottom: 20px;
+}
+#reference-area h3 {
+    font-size: 28px;
+    color: #FFA929;
+   margin-top: 50px;
+}
+
+#reference-area p {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#reference-area ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#reference-area ul li {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+
+#reference-area .content-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#reference-area img {
+    max-width: 80vh;
+    height: auto;
+    margin-left: 50px;
+}
+
+.ref {
+    color: #777 !important;
+    font-size: 15px !important;
+    text-align: center !important;
+}

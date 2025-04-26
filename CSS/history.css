@@ -1,0 +1,43 @@
+#content {
+    width: 80%; /* Adjust as needed */
+    margin: 0 auto; /* Centers the content */
+    text-align: justify; /* Improves readability */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color:black;
+    margin-bottom: 20px;
+    font-size: 38px;
+    margin-top: 50px;
+}
+
+h2 {
+    color: #FFA929;
+    margin-top: 20px;
+}
+
+ul {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+.history-link {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.history-link:hover {
+    color: #FFA929;
+    text-decoration: underline;
+}

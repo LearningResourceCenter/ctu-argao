@@ -1,0 +1,76 @@
+#online-resource-center {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+#online-resource-center h1 {
+    font-size: 38px; 
+    color: black;
+    margin-bottom: 20px;
+}
+
+#online-resource-center p {
+    font-size: 20px; 
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+   margin-bottom: 35px;
+}
+
+
+#online-resource-center ul {
+    list-style: disc;
+    padding-left: 40px; 
+    text-align: left;
+    max-width: 900px; 
+    margin: 0 auto; 
+    margin-bottom: 35px;
+}
+
+#online-resource-center ul li {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 12px;
+}
+#online-resource-center h2 {
+    font-size: 26px;
+    color: #FFA929; 
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+
+#online-resource-center .content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#online-resource-center img {
+    max-width: 100vh;
+    height: 50vh;
+    border-radius: 0;
+    margin-bottom: 35px;
+}
+#online-resource-center .printing-note {
+    font-size: 18px;
+    color: #FFA929;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -15px;
+    margin-bottom: 60px;
+}
+.orc {
+    color: #777 !important;
+    font-size: 15px !important;
+    text-align: center !important;
+    margin-top: -20px;
+}

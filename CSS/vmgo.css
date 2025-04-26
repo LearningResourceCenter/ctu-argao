@@ -1,0 +1,158 @@
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top:60px;
+}
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 90%; 
+    max-width: 1200px; 
+    margin: auto; 
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 0;
+    margin-bottom: 60px;
+}
+.container h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #FFA929;
+    margin-bottom: 10px;
+}
+
+.container p {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.slides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    position: absolute;
+    width: 50%;
+    max-width: 600px;
+    transition: all 0.5s ease-in-out;
+    opacity: 0.5;
+    filter: blur(5px);
+    transform: scale(0.8);
+    z-index: 0;
+}
+
+.slide img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.active-slide {
+    position: relative;
+    transform: scale(1);
+    opacity: 1;
+    filter: blur(0);
+    z-index: 2;
+}
+
+
+.prev-slide {
+    transform: translateX(-120%) scale(0.8);
+    z-index: 1;
+}
+
+.next-slide {
+    transform: translateX(120%) scale(0.8);
+    z-index: 1;
+}
+
+/* Navigation Buttons */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    z-index: 100;
+    border-radius: 5px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Indicators */
+.dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.active-dot {
+    background-color: #717171;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+    .slide {
+        width: 80%;
+        transform: scale(0.9);
+    }
+    .prev-slide {
+        transform: translateX(-80%) scale(0.7);
+    }
+    .next-slide {
+        transform: translateX(80%) scale(0.7);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .slide {
+        width: 100%;
+        transform: scale(1);
+    }
+    .prev-slide, .next-slide {
+        display: none; 
+    }
+}

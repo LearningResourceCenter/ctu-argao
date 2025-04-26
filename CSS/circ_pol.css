@@ -1,0 +1,73 @@
+#circulation-policies {
+     text-align: center;
+    background-color: #f8f9fa;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+#circulation-policies .container {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-left: 5px solid #FFA929; 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+#circulation-policies h1 {
+    font-size: 48px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#circulation-policies p {
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#circulation-policies h2 {
+    font-size: 22px;
+    color: #FFA929; 
+    margin-top: 25px;
+    text-align: left;
+}
+
+#circulation-policies ul {
+    list-style-type: circle; 
+    padding-left: 30px;
+    text-align: left;
+}
+
+#circulation-policies ul li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#circulation-policies ul li strong {
+    color: #222;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #circulation-policies h2 {
+        font-size: 2rem;
+    }
+
+    #circulation-policies h3 {
+        font-size: 1.3rem;
+    }
+
+    #circulation-policies p,
+    #circulation-policies ul li {
+        font-size: 1rem;
+    }
+}

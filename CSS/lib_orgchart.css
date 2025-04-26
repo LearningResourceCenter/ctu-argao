@@ -1,0 +1,166 @@
+.library-org-chart {
+    text-align: center;
+    padding: 50px 20px;
+}
+h1 {
+   font-size: 38px;
+   margin-bottom: 80px;
+}
+.library-org-chart .container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.library-banner {
+    background-color: #FFA929;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 1000px;
+    border-radius: 0;
+    margin-bottom: 40px;
+}
+
+.org-chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
+    display: flex;
+    align-items: center; /* Align items in the center */
+    justify-content: space-between;
+     gap: 20px;
+    width: 100%;
+    max-width: 1000px;
+    position: relative;
+}
+
+.university-director {
+    align-self: flex-start;
+    margin-left: 0; 
+}
+.move-left {
+    margin-right: 38%; 
+}
+.move-left::before {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 2px;
+    background-color: black;
+    top: 40%;
+    left: 18%; /* Moves left to align */
+}
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    margin-left: 0; 
+}
+.library-committee {
+    font-size: 22px; 
+    font-weight: bold;
+    text-transform: uppercase; 
+    text-align: center; 
+    border: 5px solid #FFA929;
+    color: black;
+    padding: 15px 20px; 
+    margin: 20px auto;
+    border-radius: 0;
+    max-width: 600px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+.top, .middle, .bottom, .extended-section {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+     margin-bottom: 30px;
+    position: relative;
+}
+.horizontal-line {
+    width: 100px; /* Adjust the width */
+    height: 2px;
+    background-color: black;
+    margin: 0 10px; /* Add spacing */
+    display: block; /* Ensures it shows up */
+ flex-grow: 1;
+}
+
+
+
+.top::after, .middle::after, .bottom::after, .extended-section::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    background-color: black;
+    height: 40px;
+    left: 50%;
+    top: 100%;
+}
+
+.middle::before, .bottom::before, .extended-section::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    top: 110%;
+    left: 0;
+}
+
+.circle-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid #FFA929;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-left: 70px;
+}
+
+.circle-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.name-box {
+    background: linear-gradient(to bottom, #FF8C42, #FFA929);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 0;
+    text-align: center;
+    width: 260px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.position {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.students-section {
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: white;
+    max-width: 400px;
+}

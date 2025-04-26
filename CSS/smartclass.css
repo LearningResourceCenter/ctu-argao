@@ -1,0 +1,66 @@
+#smart-classroom {
+    text-align: center;
+    padding: 30px 80px;
+    height: auto; /* Adjust height dynamically based on content */
+}
+
+#smart-classroom h1 {
+    font-size: 48px; 
+    color: black; 
+    margin-bottom: 50px;
+}
+
+#smart-classroom h2 {
+    font-size: 22px; 
+    color: #FFA929;
+    margin-bottom: 30px;
+    
+}
+
+#smart-classroom p {
+    font-size: 1.2rem; 
+    line-height: 1.6; 
+    text-align: justify; 
+    max-width: 110vh; 
+    margin: 0 auto 15px auto; 
+    color: #333; 
+}
+
+/* Add bullet points */
+#smart-classroom ul {
+    list-style-type: disc; /* Adds default bullet points */
+    padding-left: 40px; /* Indents bullet points */
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+}
+
+#smart-classroom li {
+    font-size: 1.2rem;
+    line-height: 1.6; 
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.smart-classroom-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.smart-classroom-gallery img {
+    width: 100%;
+    max-width: 600px; 
+    height: auto;
+    margin-bottom: 50px;
+   margin-top: -40px;
+}
+.smart-classroom-location {
+    text-align: center !important;  
+    font-size: 15px !important;  
+    color: #777 !important;  
+    margin-top: -25px !important;  
+    margin-bottom: 50px !important;
+}
