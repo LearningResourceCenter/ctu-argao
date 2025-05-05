@@ -609,10 +609,12 @@ nav a:hover {
     object-fit: cover;
     border-radius: 0;
     transition: transform 0.3s ease-in-out;
+    border: 2px solid #807b7b;
 }
 
 .book img:hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
+    border: 4px solid #807b7b;
 }
 
 #prevBtn, #nextBtn {
