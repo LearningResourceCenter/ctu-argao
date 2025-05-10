@@ -318,6 +318,7 @@ header .logo {
    align-items: center; 
    margin-left: -36vh;
    font-family: Georgia, serif;
+    font-style: italic;
 }
 .campus-address {
     font-style: italic; 
